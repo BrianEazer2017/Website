@@ -1,0 +1,36 @@
+@charset "ISO-8859-1";
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+p{
+	color: red;
+}
+body {
+    background-color: powderblue;
+}
+h1{
+	text-align: center;
+}
+.navbar {
+    overflow: hidden;
+    color: green;
+    background-color: white;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+footer {
+    background-color: yellow;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 20px;
+    width: 100%;
+    overflow: hidden;
+}
+.blog {
+	color:red;
+	padding-top: 20px;
+}
